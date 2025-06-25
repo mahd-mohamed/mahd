@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahd Portfolio</title>
+  <link rel="shortcut icon" href="https://routeweather.netlify.app/images/logo@2x.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <nav>
+    <img src="images/logo-removebg-preview.png" class="logo" alt="Mahd" />
+    <button id="menu-toggle" aria-label="Toggle navigation">
+      <span class="burger-icon"><i class="fas fa-bars"></i></span>
+      <span class="close-icon"><i class="fas fa-times"></i></span>
+    </button>
+    <ul>
+      <li><a href="#header" class="nav-link">Home</a></li> 
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="header" id="header">
+    <div class="header-content">
+      <h1>Front-End Developer</h1>
+      <p>
+        Hi, I'm <span>Mahd</span><br />
+        I craft modern, responsive websites with clean code, creative design,
+        and seamless user experiences.
+      </p>
+    </div>
+  </div>
+<div class="about" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/WhatsApp Image 2025-06-25 at 11.15.40_3f0293ea.jpg" alt="Mahd" />
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>
+          I'm a passionate Front-End Developer with a strong focus on building clean, interactive, and responsive web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs. I strive to create seamless user experiences using modern technologies like HTML, CSS, JavaScript, Angular, and React.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+          <p class="tab-links" onclick="openTab('experience')">Experiences</p>
+          <p class="tab-links" onclick="openTab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Languages:</span> HTML5, CSS3, JavaScript (ES6+), TypeScript , Java , Python C</li>
+            <li><span>Frameworks & Libraries:</span> React.js (SPA), Angular (Basic), Bootstrap</li>
+            <li><span>APIs & Web Integration:</span> RESTful APIs, Axios, fetch, async/await</li>
+            <li><span>UI/UX:</span> Responsive Design, Flexbox, Grid, CSS Animations</li>
+            <li><span>Tools:</span> Git & GitHub, VS Code, Azure DevOps</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Gym Management System (Front-End Only)</span><br /> 
+              Built using React.js and CSS for role-based dashboards. Data simulated with localStorage.
+            </li>
+            <li><span>Reverse Recruiter Automation Tool</span><br />
+              Designed responsive forms, animated UI, and integration with Python scripts.
+            </li>
+            <li><span>Real Time Email System</span><br />
+              Built by using  Angular role-based dashboards .
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>Bachelor's in Software Engineering</span><br />
+              Faculty of Computers and Artificial Intelligence, Helwan University, Cairo, Egypt<br />
+              Expected Graduation: 2026
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- --------------------- Services --------------------- -->
+<div class="services" id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>
+          Building responsive websites using modern technologies like HTML, CSS, and JavaScript with clean, maintainable code.
+        </p>
+      </div>
+      <div>
+        <i class="fas fa-laptop-code"></i>
+        <h3>Single Page Apps (SPA)</h3>
+        <p>
+          Developing dynamic React-based SPAs that deliver smooth user experiences with real-time interactivity and state management.
+        </p>
+      </div>
+      <div>
+        <i class="fas fa-paint-brush"></i>
+        <h3>UI/UX Design</h3>
+        <p>
+          Designing modern user interfaces with attention to detail, animations, layout systems, and responsive design principles.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- --------------------- Portfolio --------------------- -->
+<div class="portfolio" id="portfolio">
+  <div class="container">
+    <h1 class="sub-title text-center">My Work</h1>
+    <div class="row gy-4">
+      
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="work">
+          <img src="images/wea.png" alt="Weather Api">
+          <div class="layer">
+            <h3>Weather</h3>
+            <p>A modern, responsive weather app with real-time info and forecasts. Built with JS, HTML5, and CSS3.</p>
+            <div class="icons">
+              <a href="https://mahd-mohamed.github.io/Weather/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/mahd-mohamed/Weather" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="work">
+          <img src="images/login.png" alt="Login-System">
+          <div class="layer">
+            <h3>Login-System</h3>
+            <p>Modern, responsive login system with secure JS-based validation.</p>
+            <div class="icons">
+              <a href="https://mahd-mohamed.github.io/Login-System/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/mahd-mohamed/Login-System" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="work">
+          <img src="images/bookmark.png" alt="Bookmark">
+          <div class="layer">
+            <h3>Bookmark</h3>
+            <p>Responsive bookmark manager to save and manage websites. Built with JS, HTML & CSS.</p>
+            <div class="icons">
+              <a href="https://mahd-mohamed.github.io/bookmark/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/mahd-mohamed/bookmark" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-4">
+        <div class="work">
+          <img src="images/dev.png" alt="DevFolio">
+          <div class="layer">
+            <h3>DevFolio</h3>
+            <p>DevFolio - Bootstrap Portfolio HTML Template.</p>
+            <div class="icons">
+              <a href="https://mahd-mohamed.github.io/DevFolio/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/mahd-mohamed/DevFolio" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="col-md-4">
+        <div class="work">
+          <img src="images/image.png" alt="Bezel">
+          <div class="layer">
+            <h3>Bezel</h3>
+            <p>Modern business site with animations, team section & services.</p>
+            <div class="icons">
+              <a href="https://mahd-mohamed.github.io/Bezel/" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/mahd-mohamed/Bezel" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="col-md-4">
+        <div class="work">
+          <img src="images/WhatsApp Image 2025-06-25 at 18.00.24_bed5704e.jpg" alt="Reverse Recruiter">
+          <div class="layer">
+            <h3>Reverse Recruiter</h3>
+            <p>Web app where companies reach out to job seekers using automated scripts and form collection.</p>
+            <div class="icons">
+              <a href="#" target="_blank"><i class="fas fa-link"></i></a>
+              <a href="https://github.com/mahd-mohamed/Reverse-Recruiter" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- --------------------- Contact --------------------- -->
+<div class="contact" id="contact">
+  <div class="container">
+    <h1 class="sub-title">Contact Me</h1>
+    <div class="row">
+      <!-- Left Side -->
+      <div class="contact-left">
+        <p><i class="fas fa-envelope"></i> engmahd00@gmail.com</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="Document.pdf" download class="btn">Download CV</a>
+      </div>
+
+      <!-- Right Side -->
+      <div class="contact-right">
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Scroll to Top Button -->
+<button id="scroll-to-top" class="scroll-to-top-btn" aria-label="Scroll to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<!-- --------------------- Footer --------------------- -->
+<footer>
+  <p>Coded and Designed by <a href="https://github.com/mahd-mohamed" target="_blank">Eng Mahd Mohamed</a>. All rights reserved.</p>
+</footer>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
